@@ -1,5 +1,16 @@
 {
-  "trailingComma": "none",
-  "semi": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "useTabs": false,
+  "tabWidth": 4,
+  "requirePragma": false,
+  "importOrder": [
+    "^[a-zA-Z]",
+    "^@nest",
+    "^@(.*)",
+    "^(.*)",
+    "^[./]"
+  ],
+  "importOrderSeparation": true
 }
